@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DoctorLoginActivity"
+    android:background="@color/colorBg">
+
+    <ImageView
+        android:id="@+id/DLLogo_NCORD"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:src="@drawable/ncordlogo"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginTop="30dp" />
+
+
+    <EditText
+        android:id="@+id/DLET_email"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Enter your Email"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginTop="200dp"
+        android:layout_below="@id/DLLogo_NCORD"
+        android:inputType="textEmailAddress"
+        android:textColor="#000"
+        android:textColorHint="#000"
+        android:paddingStart="10dp"
+        android:background="@drawable/bg_edittext"/>
+
+
+    <EditText
+        android:id="@+id/DLET_password"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_below="@id/DLET_email"
+        android:layout_marginTop="20dp"
+        android:hint="Enter your password"
+        android:inputType="textPassword"
+        android:textColor="#000"
+        android:textColorHint="#000"
+        android:paddingStart="10dp"
+        android:background="@drawable/bg_edittext"/>
+
+    <Button
+        android:id="@+id/DLBTN_submit"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/DLET_password"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginTop="40dp"
+        android:text="Login"
+        android:textColor="@color/colorWhite"
+        android:background="@drawable/bg_button"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:id="@+id/DTV_Reg"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@id/DLBTN_submit"
+        android:text="Doctor Register"
+        android:gravity="center"
+        android:textSize="18dp"/>
+
+
+</RelativeLayout>

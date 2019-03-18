@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "76562429024",
+    "firebase_url": "https://ncord-b9884.firebaseio.com",
+    "project_id": "ncord-b9884",
+    "storage_bucket": "ncord-b9884.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:76562429024:android:d16deeceaf773ffa",
+        "android_client_info": {
+          "package_name": "in.indekode.hrushi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "76562429024-m4i17loqi6eq4tjrlqtpeudlqm3bdk2k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyADxkGmU3KHq1pFM9BgTn9spOWo76O9mgE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
