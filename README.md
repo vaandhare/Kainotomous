@@ -12,3 +12,6 @@ To achieve this the different components used are: -
 2.	**Dialogflow API** – for seamless chatting framework using Machine Learning and Neural network.
 3.	**FireBase API** – for storage and retrieval of user information.
 4.	**Android SDK** – for the android application.
+
+
+**This Project is licenced by Apache 2.0 & MIT Licence**
